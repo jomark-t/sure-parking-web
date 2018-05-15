@@ -1,0 +1,88 @@
+{
+  "bookings": [
+    {
+      "id": 1,
+      "user": "Jomark Tandog",
+      "start_date": "2018-05-11",
+      "start_time": "14:34",
+      "end_date": "2018-05-11",
+      "end_time": "21:23",
+      "place": "Building I Parking Place",
+      "status": "2",
+      "cancel": "2",
+      "total_cost": "140",
+      "total_hours": "7",
+      "node": 0
+    },
+    {
+      "id": 2,
+      "user": "Joaquin Bilbao",
+      "start_date": "2018-05-11",
+      "start_time": "17:01",
+      "end_date": "2018-05-11",
+      "end_time": "22:01",
+      "place": "Building O Parking Place",
+      "status": "2",
+      "cancel": "2",
+      "total_cost": "140",
+      "total_hours": "7",
+      "node": 0
+    },
+    {
+      "id": 3,
+      "user": "Reika Yamaguchi",
+      "start_date": "2018-05-11",
+      "start_time": "22:16",
+      "end_date": "2018-05-11",
+      "end_time": "23:01",
+      "place": "Cordava Parking Spot",
+      "status": "2",
+      "cancel": "2",
+      "total_cost": "140",
+      "total_hours": "7",
+      "node": 0
+    },
+    {
+      "user": "John Doe",
+      "start_date": "2018-05-12",
+      "start_time": "03:33",
+      "end_date": "2018-05-12",
+      "end_time": "12:43",
+      "place": "The Lost Abyss",
+      "id": 14,
+      "status": 2,
+      "cancel": 2,
+      "total_cost": 140,
+      "total_hours": 7,
+      "node": 0
+    },
+    {
+      "user": "Jomark Tandog",
+      "start_date": "2018-05-11",
+      "start_time": "14:00",
+      "end_date": "2018-05-11",
+      "end_time": "19:56",
+      "place": "Zelda Place of Parking",
+      "id": 18,
+      "status": 2,
+      "cancel": 2,
+      "total_cost": 120,
+      "total_hours": 5,
+      "node": 0
+    },
+    {
+      "id": 19,
+      "user": "Jomark Tandog",
+      "start_date": "2018-05-12",
+      "start_time": "09:20",
+      "end_date": "n/a",
+      "end_time": "n/a",
+      "place": "MOA Arena",
+      "status": "1",
+      "cancel": "2",
+      "total_cost": "0",
+      "total_hours": "0",
+      "node": "3"
+    }
+  ]
+}

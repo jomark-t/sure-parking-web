@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Sure Parking</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div  class="container">
+		<span class="title">
+			Sure Parking
+		</span>
+
+		<table style="width: 100%; background-color: white; margin-top: 10px;">
+			<tr>
+				<td>
+					<div class="sub-title">Waiting for booking</div>
+
+					<ul id="waiting"></ul>
+				</td>
+
+				<td>
+					<div class="sub-title">Slot avaiable</div>
+					<ul id="available"></ul>
+					
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div class="sub-title">Current bookings	</div>
+					
+					<ul id="current_bookings"> </ul>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<div class="sub-title">Previous bookings</div>
+
+					<ul id="booked"> </ul>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.hivemq.com/demos/websocket-client/js/mqttws31.js" ></script>
+<script src="js/scripts.js"></script>
+</body>
+
+</html>
